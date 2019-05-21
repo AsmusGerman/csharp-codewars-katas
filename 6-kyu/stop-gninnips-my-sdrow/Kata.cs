@@ -5,8 +5,8 @@ using System;
 namespace Codewars.sixKyu
 {
     /* 
-        Name: Stop gninnipS My sdroW!
-        URL: https://www.codewars.com/kata/5264d2b162488dc400000001
+        Stop gninnipS My sdroW!
+        https://www.codewars.com/kata/5264d2b162488dc400000001
         Attempts:
         1. https://www.codewars.com/kata/reviews/57cc54e4e850d4a509000029/groups/5ce3787ab1397a000197c606
     */

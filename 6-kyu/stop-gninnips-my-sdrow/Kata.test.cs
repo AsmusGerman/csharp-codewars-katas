@@ -6,40 +6,16 @@ namespace Codewars.sixKyu
     public class KataTests
     {
         [Test]
-        public void Test1()
+        [TestCase("Welcome", ExpectedResult = "emocleW")]
+        [TestCase("Hey fellow warriors", ExpectedResult = "Hey wollef sroirraw")]
+        [TestCase("This is a test", ExpectedResult = "This is a test")]
+        [TestCase("This is another test", ExpectedResult = "This is rehtona test")]
+        [TestCase("You are almost to the last test", ExpectedResult = "You are tsomla to the last test")]
+        [TestCase("Just kidding there is still one more", ExpectedResult = "Just gniddik ereht is llits one more")]
+        public string Test(string word)
         {
-            Assert.AreEqual("emocleW", Kata.SpinWords("Welcome"));
+            return Kata.SpinWords(word);
         }
 
-
-        [Test]
-        public void Test2()
-        {
-            Assert.AreEqual("Hey wollef sroirraw", Kata.SpinWords("Hey fellow warriors"));
-        }
-
-        [Test]
-        public void Test3()
-        {
-            Assert.AreEqual("This is a test", Kata.SpinWords("This is a test"));
-        }
-
-        [Test]
-        public void Test4()
-        {
-            Assert.AreEqual("This is rehtona test", Kata.SpinWords("This is another test"));
-        }
-
-        [Test]
-        public void Test5()
-        {
-            Assert.AreEqual("You are tsomla to the last test", Kata.SpinWords("You are almost to the last test"));
-        }
-
-        [Test]
-        public void Test6()
-        {
-            Assert.AreEqual("Just gniddik ereht is llits one more", Kata.SpinWords("Just kidding there is still one more"));
-        }
     }
 }
