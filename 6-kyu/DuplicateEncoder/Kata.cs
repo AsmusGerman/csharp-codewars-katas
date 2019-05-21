@@ -5,8 +5,8 @@ using System.Linq;
 namespace Codewars.sixKyu
 {
     /*
-        Name: DuplicateEncode
-        URL: https://www.codewars.com/kata/54b42f9314d9229fd6000d9c
+        DuplicateEncode
+        https://www.codewars.com/kata/54b42f9314d9229fd6000d9c
         Attempts:
         1.  https://www.codewars.com/kata/reviews/57ab76bdd9af9cfeed000111/groups/5ce22c789a2e9800010533b7
         2.  https://www.codewars.com/kata/reviews/57ab76bdd9af9cfeed000111/groups/5ce22c789a2e9800010533b7
