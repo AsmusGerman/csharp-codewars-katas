@@ -1,7 +1,8 @@
+<h1 align="center"> C# Codewars Katas </h1>
 <div align="center">
 
-<h1> C Sharp Codewars Katas </h1>
-
+[![Codewars](https://www.codewars.com/users/AsmusGerman/badges/micro)](https://www.codewars.com/users/AsmusGerman)
+[![Build Status](https://germanasmus.visualstudio.com/germanasmusmaher/_apis/build/status/AsmusGerman.csharp-codewars-katas?branchName=master)](https://germanasmus.visualstudio.com/germanasmusmaher/_build/latest?definitionId=3&branchName=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
