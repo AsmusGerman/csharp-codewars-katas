@@ -6,29 +6,15 @@ namespace Codewars.sevenKyu
     public class KataTests
     {
         [Test]
-        public void Test0()
+        [TestCase(0, ExpectedResult = 0)]
+        [TestCase(1, ExpectedResult = 1)]
+        [TestCase(15, ExpectedResult = 51)]
+        [TestCase(1021, ExpectedResult = 2110)]
+        [TestCase(123456789, ExpectedResult = 987654321)]
+
+        public int Test(int number)
         {
-            Assert.AreEqual(0, Kata.DescendingOrder(0));
-        }
-        [Test]
-        public void Test1()
-        {
-            Assert.AreEqual(1, Kata.DescendingOrder(1));
-        }
-        [Test]
-        public void Test15()
-        {
-            Assert.AreEqual(51, Kata.DescendingOrder(15));
-        }
-        [Test]
-        public void Test1021()
-        {
-            Assert.AreEqual(2110, Kata.DescendingOrder(1021));
-        }
-        [Test]
-        public void Test123456789()
-        {
-            Assert.AreEqual(987654321, Kata.DescendingOrder(123456789));
+            return Kata.DescendingOrder(number);
         }
     }
 }
