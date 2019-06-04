@@ -9,24 +9,15 @@
 
 ## Codewars
 
-[Codewars](https://www.codewars.com/) is a community of developers (Code Warriors) who train to improve their coding skills.
+[Codewars](https://www.codewars.com/) is a community of developers (Code Warriors) who train to improve their coding skills by completing code the challanges made by its own comunity.
 
-### Some codewars concepts
+In order to understand their culture there are some concepts like Kata, Kyu/Dan and Ranks you should understand to get into the Codewars idea before you enter the dojo.
 
-#### Kata
+In this way, a Kata references a particular code challange to be solved by some programming language. Each Kata has a difficulty level or Kyu (Dan for higher levels), and has a meaning of progress for the Code Warriors, starting with 8-Kyu (lowest) through 1-Kyu, and 1-Dan to 8-Kyu.
 
-A kata references a code challange to be solved by any programming language.
+## Structure
 
-#### Ranks
-
-Code Warriors gets a series of assignable Katas by rank, which indicates his progress and the challenge difficulty.
-The two classes of ranks are Kyu and Dan. Starting with Kyu level 8 through level 1, then progressing to Dan from level 1 to level 8.
-
-## Notes about this repository
-
-The Katas are gonna be within its rank on a folder and each rank with its own completion status.
-
-### Structure
+The Katas are gonna be within its rank on a folder and each rank.
 
 ```
 ├── 8-kyu/
@@ -36,8 +27,3 @@ The Katas are gonna be within its rank on a folder and each rank with its own co
 ├── 7-kyu/
 │   └── ...
 ```
-
-### Completion status
-
-- :heavy_check_mark: - Work complete
-- :construction_worker: - Work in progress
